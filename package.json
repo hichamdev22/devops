@@ -1,0 +1,26 @@
+{
+  "name": "nextjs-test-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "test:ci": "jest --runInBand --ci",
+    "coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "jest": "latest",
+    "jest-environment-jsdom": "latest"
+  }
+}
+
