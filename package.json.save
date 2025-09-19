@@ -24,6 +24,12 @@
     "@testing-library/react": "latest",
     "jest": "latest",
     "jest-environment-jsdom": "latest"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-jsdom",
+    "setupFilesAfterEnv": [
+      "<rootDir>/jest.setup.js"
+    ]
   }
 }
 

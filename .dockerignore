@@ -1,0 +1,21 @@
+# Ne pas copier les dépendances locales
+node_modules
+.next
+coverage
+
+# Fichiers de config non nécessaires
+.git
+.gitignore
+Dockerfile
+.dockerignore
+
+# Fichiers d’environnement
+.env
+.env.*
+
+# Logs
+*.log
+
+# Dossier CI/CD local
+.github
+
